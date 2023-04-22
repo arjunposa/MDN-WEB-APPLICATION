@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDN NavBar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./assets/images/MDN_Web_Docs_logo.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="./assets/images/MDN_Web_Docs_logo.svg"  id="logo" alt="">
+        </div>
+        <div class="nav-links2">
+            <ul class="first">
+                <li><a href="">References</a></li>
+                <li><a href="">Guides</a></li>
+                <li><a href=""> MDN Plus</a></li>
+            </ul> 
+         <!-- <div class="">  -->
+                <ul class="second">
+                    <li>
+                        <button class="btn" onclick="darktheme(); logo() " ><i class="fa-solid fa-sun"></i> Theme</button></li>
+                    <li><input type="text">
+                        <i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><a href="">Login</a></li>
+                    <li><button class="btn"> Get MDN Plus </button></li>
+                </ul>
+            </div>
+                   <button class="btn2 Navbar__Link-toggle" onclick="toggleNav() "><i class="fa fa-bars"></i></button>
+            </div>
+        </div>
+        
+    </div>
+    <div class="home">
+    <div class="home-header">
+        <h2>Featured Articles</h2>
+    </div>
+    <!-- <video autoplay loop muted src="./assets/bg-videos/Purple and Black Simple Technology Keynote Presentation.mp4"></video> -->
+    <div class="home-page">
+            <div class="home-container">
+            <div class="cards">
+              <a href="">Web APIs</a>
+              <a href="">Getting started with WebGL</a>
+              <p>WebGL enables web content to use an API based on OpenGL ES 2.0 to perform 2D and 3D rendering in an HTML canvas in browsers that</p>
+
+            </div>
+            <div class="cards">
+              <a href="">CSS</a>
+              <a href="">CSS Container Queries</a>
+              <p>Container queries enable you to apply styles to an element based on the size of the element's container. If, for example, a container has less space available in the surrounding context, you</p>
+
+            </div>
+            <div class="cards">
+              <a href="">Web APIs</a> 
+              <a href="">Performance API</a>
+              <p>The Performance API is a group of standards used to measure the performance of web applications.</p>
+
+            </div>
+            <div class="cards">
+             <a href="">CSS</a>
+             <a href="">font-palette</a>
+             <p>The font-palette CSS property allows specifying one of the many palettes contained in a font that a user agent should use for the font. Users can</p>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
